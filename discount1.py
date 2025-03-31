@@ -5,8 +5,6 @@ def calculate_discount(price, discount_percent):
         return final_price
     else:
         return price
-
-# Example usage
 original_price = 100
 discount = 15
 final_price = calculate_discount(original_price, discount)
